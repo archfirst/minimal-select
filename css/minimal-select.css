@@ -1,0 +1,37 @@
+.minimalselect-container {
+    position: relative;
+    text-align: right;
+    width: 200px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.minimalselect-selected {
+    font-size: 18px;
+}
+
+.minimalselect-drop {
+    display: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #cccccc;
+    list-style-type: none;
+    background: white;
+    background-clip: padding-box;
+    z-index: 9999;
+    position: absolute;
+    top: 24px;
+    right: 0;
+}
+
+.minimalselect-drop li {
+    padding: 2px;
+    padding-right: 26px;
+}
+
+.minimalselect-highlight {
+    color: white;
+    background: #3875d7;
+}

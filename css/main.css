@@ -1,0 +1,47 @@
+/* apply a natural box layout model to all elements */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* A (ridiculously) simlified version of normaize.css */
+html, body, div, h1 {
+    border: 0;
+    margin: 0;
+    padding: 0;
+	font: inherit;
+}
+
+/* Set up a default font and some padding to provide breating room */
+body {
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    padding: 16px;
+}
+
+/* Style primary elements as needed */
+h1 {
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.content {
+    margin-left: 16px;
+    width: 300px;
+}
+
+
+/* -----------------------------------------------------------------------------
+ * Customize MinimalSelect for larger font
+ * -------------------------------------------------------------------------- */
+.minimalselect-container {
+    float: right;
+}
+
+.phone-selector {
+    width: 300px;
+}
+
+.phone-selector .minimalselect-selected {
+    font-size: 30px;
+}
+
+.phone-selector .minimalselect-drop {
+    top: 36px;
+}
